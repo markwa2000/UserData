@@ -1,0 +1,5 @@
+#!/bin/bash
+wget https://dl.grafana.com/enterprise/release/grafana-enterprise-9.3.0-beta1.linux-amd64.tar.gz
+tar -xvzf grafana-enterprise-9.3.0-beta1.linux-amd64.tar.gz
+cd grafana-9.3.0-beta1/bin
+nohup ./grafana-server &
